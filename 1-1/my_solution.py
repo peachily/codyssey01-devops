@@ -1,4 +1,5 @@
-def hello():
+def hello() -> str:
   return ("Hello")
 
-print (hello())
+if __name__ == "__main__":
+  print (hello())
