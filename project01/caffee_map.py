@@ -31,5 +31,5 @@ print(area1_df)
 def struct_stats(df):
   print(df['struct'].value_counts())
 
-print('===== 구조물 종류별 요약 통계 =====')
+print('\n===== 구조물 종류별 요약 통계 =====')
 struct_stats(wholeData_df)
