@@ -173,10 +173,6 @@ def create_grid_map(data):
     
     return grid, min_x, min_y, max_x, max_y
 
-def calculate_manhattan_distance(point1, point2):
-    """두 점 사이의 맨하탄 거리를 계산하는 함수"""
-    return abs(point1[0] - point2[0]) + abs(point1[1] - point2[1])
-
 def bfs_distance_between_points(grid, start, end, min_x, min_y):
     """두 점 사이의 BFS 최단 거리를 계산하는 함수"""
     
